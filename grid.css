@@ -1,0 +1,23 @@
+/*Outer container*/
+#grid {
+	display: grid;
+	height: 300px;
+	width: 300px;
+	overflow: hidden;
+	margin: auto;
+	background-color: red;
+
+	align-content: start;
+	grid-template-columns: repeat(6, auto);
+}
+
+/*Inner elements*/
+.square {
+	height: 50px;
+	width: 50px;
+	background-color: green;
+}
+/*Make inner elements responsive*/
+.square:hover {
+	background-color: blue;
+}
