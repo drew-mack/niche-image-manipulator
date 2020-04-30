@@ -1,20 +1,31 @@
 <html>
 <head>
-	<title>Emoji Grid</title>
+	<title>Niche Image Generator</title>
 	<link rel="stylesheet" href="grid.css"/>
+	<script type="text/javascript" src="action.js"></script>
 </head>
 
-<body>
+<body onload="clearGrid()">
 	<div id="grid">
-		<div class="square">a</div>
-		<div class="square">b</div>
-		<div class="square">c</div>
-		<div class="square">d</div>
-		<div class="square">e</div>
-		<div class="square">f</div>
-		<div class="square">g</div>
-		<div class="square">h</div>
-		<div class="square">i</div>
+		<div id="g1" onclick="colorSquare('g1')"></div>
+		<div id="g2" onclick="colorSquare('g2')"></div>
+		<div id="g3" onclick="colorSquare('g3')"></div>
+		<div id="g4" onclick="colorSquare('g4')"></div>
+		<div id="g5" onclick="colorSquare('g5')"></div>
+		<div id="g6" onclick="colorSquare('g6')"></div>
+		<div id="g7" onclick="colorSquare('g7')"></div>
+		<div id="g8" onclick="colorSquare('g8')"></div>
+		<div id="g9" onclick="colorSquare('g9')"></div>
+		<div id="g10" onclick="colorSquare('g10')"></div>
+		<div id="g11" onclick="colorSquare('g11')"></div>
+		<div id="g12" onclick="colorSquare('g12')"></div>
+		<div id="g13" onclick="colorSquare('g13')"></div>
+		<div id="g14" onclick="colorSquare('g14')"></div>
+		<div id="g15" onclick="colorSquare('g15')"></div>
+		<div id="g16" onclick="colorSquare('g16')"></div>
 	</div>
+
+	<input id="clear-button" type="button" value="Clear" onclick="clearGrid()" />
+
 </body>
 </html>
