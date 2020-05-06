@@ -1,8 +1,8 @@
 /*Outer container*/
 #grid {
 	display: grid;
-	height:100px;
-	width:100px;
+	height:112px;
+	width:112px;
 	overflow: hidden;
 	margin: auto;
 	background-color: #000000;
@@ -13,8 +13,8 @@
 
 /*Inner elements*/
 #grid div {
-	height: 25px;
-	width: 25px;
+	height: 28px;
+	width: 28px;
 	background-color: green;
 }
 

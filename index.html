@@ -1,44 +1,44 @@
 <html>
 <head>
-	<title>Niche Image Manipulator</title>
-	<link rel="stylesheet" href="grid.css"/>
-	<script type="text/javascript" src="action.js"></script>
+    <title>Niche Image Manipulator</title>
+    <link rel="stylesheet" href="grid.css"/>
+    <script type="text/javascript" src="action.js"></script>
 </head>
 
 <body onload="clearGrid()">
 
-	<p>Click Squares</p>
+    <p>Click Squares</p>
 
-	<div id="grid">
-		<div id="g1" onclick="colorSquare('g1')"></div>
-		<div id="g2" onclick="colorSquare('g2')"></div>
-		<div id="g3" onclick="colorSquare('g3')"></div>
-		<div id="g4" onclick="colorSquare('g4')"></div>
-		<div id="g5" onclick="colorSquare('g5')"></div>
-		<div id="g6" onclick="colorSquare('g6')"></div>
-		<div id="g7" onclick="colorSquare('g7')"></div>
-		<div id="g8" onclick="colorSquare('g8')"></div>
-		<div id="g9" onclick="colorSquare('g9')"></div>
-		<div id="g10" onclick="colorSquare('g10')"></div>
-		<div id="g11" onclick="colorSquare('g11')"></div>
-		<div id="g12" onclick="colorSquare('g12')"></div>
-		<div id="g13" onclick="colorSquare('g13')"></div>
-		<div id="g14" onclick="colorSquare('g14')"></div>
-		<div id="g15" onclick="colorSquare('g15')"></div>
-		<div id="g16" onclick="colorSquare('g16')"></div>
-	</div>
+    <div id="grid">
+        <div id="g1" onclick="imageSquare('g1')"></div>
+        <div id="g2" onclick="imageSquare('g2')"></div>
+        <div id="g3" onclick="imageSquare('g3')"></div>
+        <div id="g4" onclick="imageSquare('g4')"></div>
+        <div id="g5" onclick="imageSquare('g5')"></div>
+        <div id="g6" onclick="imageSquare('g6')"></div>
+        <div id="g7" onclick="imageSquare('g7')"></div>
+        <div id="g8" onclick="imageSquare('g8')"></div>
+        <div id="g9" onclick="imageSquare('g9')"></div>
+        <div id="g10" onclick="imageSquare('g10')"></div>
+        <div id="g11" onclick="imageSquare('g11')"></div>
+        <div id="g12" onclick="imageSquare('g12')"></div>
+        <div id="g13" onclick="imageSquare('g13')"></div>
+        <div id="g14" onclick="imageSquare('g14')"></div>
+        <div id="g15" onclick="imageSquare('g15')"></div>
+        <div id="g16" onclick="imageSquare('g16')"></div>
+    </div>
 
-	<input id="clear-button" type="button" value="Clear" onclick="clearGrid()" />
+    <input id="clear-button" type="button" value="Clear" onclick="clearGrid()" />
 
-	<p>Enter and Submit to resize</p>
-	
-	<p>Rows</p>
-	<input type="text" id="rows" name="rows">
+    <p>Enter and Submit to resize</p>
+    
+    <p>Rows</p>
+    <input type="text" id="rows" name="rows">
 
-	<p>Columns</p>
-	<input type="text" id="cols" name="cols">
+    <p>Columns</p>
+    <input type="text" id="cols" name="cols">
 
-	<input type="button" id="submit-button" value="Submit" onclick="submitDim()" />
+    <input type="button" id="submit-button" value="Submit" onclick="submitDim()" />
 
 </body>
 </html>
