@@ -1,11 +1,14 @@
 <html>
 <head>
-	<title>Niche Image Generator</title>
+	<title>Niche Image Manipulator</title>
 	<link rel="stylesheet" href="grid.css"/>
 	<script type="text/javascript" src="action.js"></script>
 </head>
 
 <body onload="clearGrid()">
+
+	<p>Click Squares</p>
+
 	<div id="grid">
 		<div id="g1" onclick="colorSquare('g1')"></div>
 		<div id="g2" onclick="colorSquare('g2')"></div>
@@ -26,6 +29,16 @@
 	</div>
 
 	<input id="clear-button" type="button" value="Clear" onclick="clearGrid()" />
+
+	<p>Enter and Submit to resize</p>
+	
+	<p>Rows</p>
+	<input type="text" id="rows" name="rows">
+
+	<p>Columns</p>
+	<input type="text" id="cols" name="cols">
+
+	<input type="button" id="submit-button" value="Submit" onclick="submitDim()" />
 
 </body>
 </html>
